@@ -110,7 +110,7 @@ const CreateCV = () => {
                     control={control}
                     defaultValue=""
                     rules={{ required: 'Education is required' }}
-                    render={({ field }) => <input {...field} type="text" placeholder='Education' className="w-full p-2 border rounded" />}
+                    render={({ field }) => <input {...field} type="text" placeholder='education' className="w-full p-2 border rounded" />}
                 />
                 {errors.education && <p className="text-red-500">{errors.education.message}</p>}
             </div>
